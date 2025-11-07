@@ -1,0 +1,36 @@
+{   
+    "project_name": "AAAI-Experiments_PAM_ABLATION_no_GNN",
+    "main_path": "/storage/datasets_public/irreg_ts/datasets/",
+    "data_path": "PAMdata/processed_data/PTdict_list.npy",
+    "label_path": "PAMdata/processed_data/arr_outcomes.npy",
+    "splits_path": "PAMdata/splits/",
+    "sensor_density_path": "PAMdata/IG_density_scores_PAM.npy",
+    "save_dir": "./results/PAM",
+
+    "batch_size": 4,
+    "gradient_accumulation_step": 32,
+    "epochs": 1,
+    "window_size": 600,
+    "lr": 1e-4,
+    "dropout": 0.1,
+    "patience": 10,
+    "weight_decay": 1e-5,
+    "scheduler": true,
+
+    "random_seed": 42,
+
+    "observation_dim": 1,
+    "num_attention_heads": 8,
+
+    "irregularity": false,
+    "irregularity_rate": 0.0,
+    "irregularity_type": "fixed",
+
+    "n_classes": 8,
+    "positional_encoding": "relative_t2v",
+    
+    "device": "cuda",
+    "n_runs": 1,
+    "n_splits": 1
+
+}

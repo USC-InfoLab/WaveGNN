@@ -1,0 +1,35 @@
+{   
+    "project_name": "AAAI-Experiments_MIMIC3-PHE",
+    "main_path": "/storage/datasets_public/irreg_ts/datasets/",
+    "save_dir": "./results/MIMIC3/",
+    "data_path": "mimiciii/processed/multimodal_processed/pheno",
+    "label_path": "",
+
+    "period_length": 48,
+
+    "batch_size": 4,
+    "gradient_accumulation_step": 32,
+    "epochs": 1,
+    "window_size": 700,
+    "lr": 1e-4,
+    "dropout": 0.1,
+    "weight_decay": 1e-5,
+    "patience": 10,
+    "scheduler": false,
+
+    "random_seed": 42,
+
+    "irregularity": false,
+    "irregularity_rate": 0.0,
+    "irregularity_type": "fixed",
+
+    "observation_dim": 1,
+    "num_attention_heads": 8,
+    "positional_encoding": "relative_t2v",
+
+    "n_classes": 25,
+    
+    "device": "cuda",
+    "n_runs": 1,
+    "n_splits": 1
+}
