@@ -1,7 +1,9 @@
 ## 📢 Publication
 
-This work has been **accepted for publication** at the  
-**2025 IEEE International Conference on Big Data (IEEE BigData 2025)**, Macau, China.  
+This work was accepted at **IEEE BigData 2025 (Macau, China)** and received **Best Student Paper Runner-up**.
+
+**Paper (arXiv):** https://arxiv.org/abs/2412.10621  
+**Award:** https://conferences.cis.um.edu.mo/ieeebigdata2025/awards.html (photo: [link](https://github.com/user-attachments/assets/b5a464f0-a444-45ff-be2c-67a0e4ec1afa))
 
 **Citation:**
 Arash Hajisafi, Maria Despoina Siampou, Bita Azarijoo, Zhen Xiong, and Cyrus Shahabi.  
